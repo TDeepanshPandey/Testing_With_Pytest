@@ -1,6 +1,6 @@
 from pytest import mark
 
-@mark.hello
+@mark.body
 class BodyTest:
     def test_windshield(self):
         assert True
